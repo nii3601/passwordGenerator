@@ -21,7 +21,7 @@ int main(int argc, char *argv[]){
 	char password[length];
 	for(int i = 0; i < length; i++){
 		int random = 33 + rand() %94;
-		if(random == 94 || random == 61 || random == 44){
+		if(random == 94 || random == 61 || random == 44){ //remove characters that mess with microsoft excel
 			random = 76;
 		}
 		password[i] = random;
