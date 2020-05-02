@@ -10,8 +10,6 @@ NUM=""
 BASEDIR=$(dirname "$0")
 clear
 
-#make randomGenerator executable
-
 echo -e "Jonathan's Password Generator v1.0\n"
 
 read -p "Length of passwords: " LEN
